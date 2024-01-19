@@ -21,6 +21,7 @@ jobs:
           args:
             -Dsonar.projectKey=gitbot-nida_githubactions-ci
             -Dsonar.organization=gitbot-nida
+            -Dsonar.qualitygate.wait=true
 
   build_test:
     needs: StaticAnalysis
