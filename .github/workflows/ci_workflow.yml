@@ -23,6 +23,7 @@ jobs:
             -Dsonar.organization=gitbot-nida
 
   build_test:
+    needs: StaticAnalysis
 
     runs-on: ubuntu-latest
     permissions:
