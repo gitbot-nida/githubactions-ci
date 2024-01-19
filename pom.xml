@@ -6,11 +6,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>githubactionsjandemo</artifactId>
+	<artifactId>githubactions-ci</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>gitopscalculator Maven Webapp</name>
+	<name>githubactions-ci Maven Webapp</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -18,10 +18,10 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!-- 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.projectKey>NidaAP_githubactionsjandemo</sonar.projectKey>
 		<sonar.organization>nidaap</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url> -->
 
 	</properties>
 
@@ -41,7 +41,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>githubactionsjandemo</finalName>
+		<finalName>githubactions-ci</finalName>
 
 		<plugins>
 
@@ -124,7 +124,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub NidaAP Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/nidaap/githubactionsjandemo</url>
+			<url>https://maven.pkg.github.com/gitbot-nida/githubactions-ci</url>
 		</repository>
 	</distributionManagement>
 </project>
